@@ -1,0 +1,10 @@
+<template>
+    <nav>
+        <ul>
+            <li>Acueil</li>
+            <li>About</li>
+            <li>contact</li>
+            <li>services</li>
+        </ul>
+    </nav>
+</template>
