@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
-import App from './App.vue'
+// import App from './App.vue'
 import * as VueRouter from 'vue-router'
 import Home from './pages/Home.vue'
 import About from './pages/About.vue'
@@ -11,7 +11,7 @@ const router = VueRouter.createRouter({
         {
             path: '/',
             name : 'home',
-            component : 'home'
+            component : 'Home'
         },
         {
             path: '/about',
@@ -26,7 +26,7 @@ const router = VueRouter.createRouter({
     ]
 });
 
-const app = createApp(App)
+const app = createApp(Home)
 app.use(router).mount('#app')
 
 app.mount('app')
